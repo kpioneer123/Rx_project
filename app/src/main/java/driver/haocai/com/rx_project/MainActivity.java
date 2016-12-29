@@ -17,4 +17,16 @@ public class MainActivity extends AppCompatActivity {
     public void createMethod(View view){
         RxUtils.createObserable();
     }
+    public void createMethod2(View view){
+        RxUtils.createPrint();
+    }
+    public void from(View view){
+        RxUtils.from();
+    }
+    public void just(View view){
+        RxUtils.just();
+    }
+    public void filter(View view){
+        RxUtils.filter();
+    }
 }

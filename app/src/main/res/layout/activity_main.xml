@@ -17,4 +17,41 @@
         android:id="@+id/button"
         android:layout_alignParentTop="true"
         android:onClick="createMethod"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="create 方法2"
+        android:id="@+id/button2"
+        android:layout_below="@+id/button"
+        android:onClick="createMethod2"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="from 方法"
+        android:id="@+id/button3"
+        android:layout_below="@+id/button2"
+        android:onClick="from"/>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="just方法"
+        android:id="@+id/button4"
+        android:layout_below="@+id/button3"
+        android:onClick="just"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="filter 方法"
+        android:id="@+id/button5"
+        android:layout_below="@+id/button4"
+        android:onClick="filter"/>
+
 </RelativeLayout>
